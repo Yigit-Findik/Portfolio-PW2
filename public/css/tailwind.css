@@ -11374,12 +11374,36 @@ video {
   height: 24rem;
 }
 
-.h-auto {
-  height: auto;
+.h-112 {
+  height: 28rem;
 }
 
-.h-px {
-  height: 1px;
+.h-120 {
+  height: 30rem;
+}
+
+.h-128 {
+  height: 32rem;
+}
+
+.h-136 {
+  height: 34rem;
+}
+
+.h-144 {
+  height: 36rem;
+}
+
+.h-152 {
+  height: 38rem;
+}
+
+.h-240 {
+  height: 60rem;
+}
+
+.h-256 {
+  height: 62rem;
 }
 
 .h-0\.5 {
@@ -11396,74 +11420,6 @@ video {
 
 .h-3\.5 {
   height: 0.875rem;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-1\/3 {
-  height: 33.333333%;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
-}
-
-.h-1\/4 {
-  height: 25%;
-}
-
-.h-2\/4 {
-  height: 50%;
-}
-
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-1\/5 {
-  height: 20%;
-}
-
-.h-2\/5 {
-  height: 40%;
-}
-
-.h-3\/5 {
-  height: 60%;
-}
-
-.h-4\/5 {
-  height: 80%;
-}
-
-.h-1\/6 {
-  height: 16.666667%;
-}
-
-.h-2\/6 {
-  height: 33.333333%;
-}
-
-.h-3\/6 {
-  height: 50%;
-}
-
-.h-4\/6 {
-  height: 66.666667%;
-}
-
-.h-5\/6 {
-  height: 83.333333%;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .text-xs {
@@ -31167,6 +31123,90 @@ video {
           animation: bounce 1s infinite;
 }
 
+.animate-spin-slow {
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+}
+
+.animate-bounce-slow {
+  -webkit-animation: bounce 2s linear infinite;
+          animation: bounce 2s linear infinite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .motion-safe\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .motion-safe\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .motion-safe\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .motion-safe\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .motion-safe\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
+  .motion-safe\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .motion-safe\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-reduce\:animate-none {
+    -webkit-animation: none;
+            animation: none;
+  }
+
+  .motion-reduce\:animate-spin {
+    -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+  }
+
+  .motion-reduce\:animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .motion-reduce\:animate-pulse {
+    -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .motion-reduce\:animate-bounce {
+    -webkit-animation: bounce 1s infinite;
+            animation: bounce 1s infinite;
+  }
+
+  .motion-reduce\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .motion-reduce\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -41996,12 +42036,36 @@ video {
     height: 24rem;
   }
 
-  .sm\:h-auto {
-    height: auto;
+  .sm\:h-112 {
+    height: 28rem;
   }
 
-  .sm\:h-px {
-    height: 1px;
+  .sm\:h-120 {
+    height: 30rem;
+  }
+
+  .sm\:h-128 {
+    height: 32rem;
+  }
+
+  .sm\:h-136 {
+    height: 34rem;
+  }
+
+  .sm\:h-144 {
+    height: 36rem;
+  }
+
+  .sm\:h-152 {
+    height: 38rem;
+  }
+
+  .sm\:h-240 {
+    height: 60rem;
+  }
+
+  .sm\:h-256 {
+    height: 62rem;
   }
 
   .sm\:h-0\.5 {
@@ -42018,74 +42082,6 @@ video {
 
   .sm\:h-3\.5 {
     height: 0.875rem;
-  }
-
-  .sm\:h-1\/2 {
-    height: 50%;
-  }
-
-  .sm\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .sm\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .sm\:h-1\/4 {
-    height: 25%;
-  }
-
-  .sm\:h-2\/4 {
-    height: 50%;
-  }
-
-  .sm\:h-3\/4 {
-    height: 75%;
-  }
-
-  .sm\:h-1\/5 {
-    height: 20%;
-  }
-
-  .sm\:h-2\/5 {
-    height: 40%;
-  }
-
-  .sm\:h-3\/5 {
-    height: 60%;
-  }
-
-  .sm\:h-4\/5 {
-    height: 80%;
-  }
-
-  .sm\:h-1\/6 {
-    height: 16.666667%;
-  }
-
-  .sm\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .sm\:h-3\/6 {
-    height: 50%;
-  }
-
-  .sm\:h-4\/6 {
-    height: 66.666667%;
-  }
-
-  .sm\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .sm\:h-full {
-    height: 100%;
-  }
-
-  .sm\:h-screen {
-    height: 100vh;
   }
 
   .sm\:text-xs {
@@ -61709,6 +61705,90 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .sm\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .sm\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .sm\:motion-safe\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .sm\:motion-safe\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .sm\:motion-safe\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .sm\:motion-safe\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .sm\:motion-safe\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .sm\:motion-safe\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .sm\:motion-safe\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sm\:motion-reduce\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .sm\:motion-reduce\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .sm\:motion-reduce\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .sm\:motion-reduce\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .sm\:motion-reduce\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .sm\:motion-reduce\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .sm\:motion-reduce\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -72540,12 +72620,36 @@ video {
     height: 24rem;
   }
 
-  .md\:h-auto {
-    height: auto;
+  .md\:h-112 {
+    height: 28rem;
   }
 
-  .md\:h-px {
-    height: 1px;
+  .md\:h-120 {
+    height: 30rem;
+  }
+
+  .md\:h-128 {
+    height: 32rem;
+  }
+
+  .md\:h-136 {
+    height: 34rem;
+  }
+
+  .md\:h-144 {
+    height: 36rem;
+  }
+
+  .md\:h-152 {
+    height: 38rem;
+  }
+
+  .md\:h-240 {
+    height: 60rem;
+  }
+
+  .md\:h-256 {
+    height: 62rem;
   }
 
   .md\:h-0\.5 {
@@ -72562,74 +72666,6 @@ video {
 
   .md\:h-3\.5 {
     height: 0.875rem;
-  }
-
-  .md\:h-1\/2 {
-    height: 50%;
-  }
-
-  .md\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .md\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .md\:h-1\/4 {
-    height: 25%;
-  }
-
-  .md\:h-2\/4 {
-    height: 50%;
-  }
-
-  .md\:h-3\/4 {
-    height: 75%;
-  }
-
-  .md\:h-1\/5 {
-    height: 20%;
-  }
-
-  .md\:h-2\/5 {
-    height: 40%;
-  }
-
-  .md\:h-3\/5 {
-    height: 60%;
-  }
-
-  .md\:h-4\/5 {
-    height: 80%;
-  }
-
-  .md\:h-1\/6 {
-    height: 16.666667%;
-  }
-
-  .md\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .md\:h-3\/6 {
-    height: 50%;
-  }
-
-  .md\:h-4\/6 {
-    height: 66.666667%;
-  }
-
-  .md\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .md\:h-full {
-    height: 100%;
-  }
-
-  .md\:h-screen {
-    height: 100vh;
   }
 
   .md\:text-xs {
@@ -92253,6 +92289,90 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .md\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .md\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .md\:motion-safe\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .md\:motion-safe\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .md\:motion-safe\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .md\:motion-safe\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .md\:motion-safe\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .md\:motion-safe\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .md\:motion-safe\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .md\:motion-reduce\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .md\:motion-reduce\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .md\:motion-reduce\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .md\:motion-reduce\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .md\:motion-reduce\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .md\:motion-reduce\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .md\:motion-reduce\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -103084,12 +103204,36 @@ video {
     height: 24rem;
   }
 
-  .lg\:h-auto {
-    height: auto;
+  .lg\:h-112 {
+    height: 28rem;
   }
 
-  .lg\:h-px {
-    height: 1px;
+  .lg\:h-120 {
+    height: 30rem;
+  }
+
+  .lg\:h-128 {
+    height: 32rem;
+  }
+
+  .lg\:h-136 {
+    height: 34rem;
+  }
+
+  .lg\:h-144 {
+    height: 36rem;
+  }
+
+  .lg\:h-152 {
+    height: 38rem;
+  }
+
+  .lg\:h-240 {
+    height: 60rem;
+  }
+
+  .lg\:h-256 {
+    height: 62rem;
   }
 
   .lg\:h-0\.5 {
@@ -103106,74 +103250,6 @@ video {
 
   .lg\:h-3\.5 {
     height: 0.875rem;
-  }
-
-  .lg\:h-1\/2 {
-    height: 50%;
-  }
-
-  .lg\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .lg\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .lg\:h-1\/4 {
-    height: 25%;
-  }
-
-  .lg\:h-2\/4 {
-    height: 50%;
-  }
-
-  .lg\:h-3\/4 {
-    height: 75%;
-  }
-
-  .lg\:h-1\/5 {
-    height: 20%;
-  }
-
-  .lg\:h-2\/5 {
-    height: 40%;
-  }
-
-  .lg\:h-3\/5 {
-    height: 60%;
-  }
-
-  .lg\:h-4\/5 {
-    height: 80%;
-  }
-
-  .lg\:h-1\/6 {
-    height: 16.666667%;
-  }
-
-  .lg\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .lg\:h-3\/6 {
-    height: 50%;
-  }
-
-  .lg\:h-4\/6 {
-    height: 66.666667%;
-  }
-
-  .lg\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:h-screen {
-    height: 100vh;
   }
 
   .lg\:text-xs {
@@ -122797,6 +122873,90 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .lg\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .lg\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .lg\:motion-safe\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .lg\:motion-safe\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .lg\:motion-safe\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .lg\:motion-safe\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .lg\:motion-safe\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .lg\:motion-safe\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .lg\:motion-safe\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lg\:motion-reduce\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .lg\:motion-reduce\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .lg\:motion-reduce\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .lg\:motion-reduce\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .lg\:motion-reduce\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .lg\:motion-reduce\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .lg\:motion-reduce\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
 }
 
 @media (min-width: 1280px) {
@@ -133628,12 +133788,36 @@ video {
     height: 24rem;
   }
 
-  .xl\:h-auto {
-    height: auto;
+  .xl\:h-112 {
+    height: 28rem;
   }
 
-  .xl\:h-px {
-    height: 1px;
+  .xl\:h-120 {
+    height: 30rem;
+  }
+
+  .xl\:h-128 {
+    height: 32rem;
+  }
+
+  .xl\:h-136 {
+    height: 34rem;
+  }
+
+  .xl\:h-144 {
+    height: 36rem;
+  }
+
+  .xl\:h-152 {
+    height: 38rem;
+  }
+
+  .xl\:h-240 {
+    height: 60rem;
+  }
+
+  .xl\:h-256 {
+    height: 62rem;
   }
 
   .xl\:h-0\.5 {
@@ -133650,74 +133834,6 @@ video {
 
   .xl\:h-3\.5 {
     height: 0.875rem;
-  }
-
-  .xl\:h-1\/2 {
-    height: 50%;
-  }
-
-  .xl\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .xl\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .xl\:h-1\/4 {
-    height: 25%;
-  }
-
-  .xl\:h-2\/4 {
-    height: 50%;
-  }
-
-  .xl\:h-3\/4 {
-    height: 75%;
-  }
-
-  .xl\:h-1\/5 {
-    height: 20%;
-  }
-
-  .xl\:h-2\/5 {
-    height: 40%;
-  }
-
-  .xl\:h-3\/5 {
-    height: 60%;
-  }
-
-  .xl\:h-4\/5 {
-    height: 80%;
-  }
-
-  .xl\:h-1\/6 {
-    height: 16.666667%;
-  }
-
-  .xl\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .xl\:h-3\/6 {
-    height: 50%;
-  }
-
-  .xl\:h-4\/6 {
-    height: 66.666667%;
-  }
-
-  .xl\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .xl\:h-full {
-    height: 100%;
-  }
-
-  .xl\:h-screen {
-    height: 100vh;
   }
 
   .xl\:text-xs {
@@ -153341,6 +153457,90 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .xl\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .xl\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .xl\:motion-safe\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .xl\:motion-safe\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .xl\:motion-safe\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .xl\:motion-safe\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .xl\:motion-safe\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .xl\:motion-safe\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .xl\:motion-safe\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .xl\:motion-reduce\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .xl\:motion-reduce\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .xl\:motion-reduce\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .xl\:motion-reduce\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .xl\:motion-reduce\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .xl\:motion-reduce\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .xl\:motion-reduce\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
 }
 
 @media (min-width: 1536px) {
@@ -164172,12 +164372,36 @@ video {
     height: 24rem;
   }
 
-  .\32xl\:h-auto {
-    height: auto;
+  .\32xl\:h-112 {
+    height: 28rem;
   }
 
-  .\32xl\:h-px {
-    height: 1px;
+  .\32xl\:h-120 {
+    height: 30rem;
+  }
+
+  .\32xl\:h-128 {
+    height: 32rem;
+  }
+
+  .\32xl\:h-136 {
+    height: 34rem;
+  }
+
+  .\32xl\:h-144 {
+    height: 36rem;
+  }
+
+  .\32xl\:h-152 {
+    height: 38rem;
+  }
+
+  .\32xl\:h-240 {
+    height: 60rem;
+  }
+
+  .\32xl\:h-256 {
+    height: 62rem;
   }
 
   .\32xl\:h-0\.5 {
@@ -164194,74 +164418,6 @@ video {
 
   .\32xl\:h-3\.5 {
     height: 0.875rem;
-  }
-
-  .\32xl\:h-1\/2 {
-    height: 50%;
-  }
-
-  .\32xl\:h-1\/3 {
-    height: 33.333333%;
-  }
-
-  .\32xl\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .\32xl\:h-1\/4 {
-    height: 25%;
-  }
-
-  .\32xl\:h-2\/4 {
-    height: 50%;
-  }
-
-  .\32xl\:h-3\/4 {
-    height: 75%;
-  }
-
-  .\32xl\:h-1\/5 {
-    height: 20%;
-  }
-
-  .\32xl\:h-2\/5 {
-    height: 40%;
-  }
-
-  .\32xl\:h-3\/5 {
-    height: 60%;
-  }
-
-  .\32xl\:h-4\/5 {
-    height: 80%;
-  }
-
-  .\32xl\:h-1\/6 {
-    height: 16.666667%;
-  }
-
-  .\32xl\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .\32xl\:h-3\/6 {
-    height: 50%;
-  }
-
-  .\32xl\:h-4\/6 {
-    height: 66.666667%;
-  }
-
-  .\32xl\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .\32xl\:h-full {
-    height: 100%;
-  }
-
-  .\32xl\:h-screen {
-    height: 100vh;
   }
 
   .\32xl\:text-xs {
@@ -183884,5 +184040,89 @@ video {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-spin-slow {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+
+  .\32xl\:animate-bounce-slow {
+    -webkit-animation: bounce 2s linear infinite;
+            animation: bounce 2s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .\32xl\:motion-safe\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .\32xl\:motion-safe\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .\32xl\:motion-safe\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .\32xl\:motion-safe\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .\32xl\:motion-safe\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .\32xl\:motion-safe\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .\32xl\:motion-safe\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .\32xl\:motion-reduce\:animate-none {
+      -webkit-animation: none;
+              animation: none;
+    }
+
+    .\32xl\:motion-reduce\:animate-spin {
+      -webkit-animation: spin 1s linear infinite;
+              animation: spin 1s linear infinite;
+    }
+
+    .\32xl\:motion-reduce\:animate-ping {
+      -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+              animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .\32xl\:motion-reduce\:animate-pulse {
+      -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+              animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .\32xl\:motion-reduce\:animate-bounce {
+      -webkit-animation: bounce 1s infinite;
+              animation: bounce 1s infinite;
+    }
+
+    .\32xl\:motion-reduce\:animate-spin-slow {
+      -webkit-animation: spin 3s linear infinite;
+              animation: spin 3s linear infinite;
+    }
+
+    .\32xl\:motion-reduce\:animate-bounce-slow {
+      -webkit-animation: bounce 2s linear infinite;
+              animation: bounce 2s linear infinite;
+    }
   }
 }
