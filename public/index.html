@@ -26,11 +26,10 @@
                     </li>
                     <li class="rounded-lg ">
                         <div class="h-24 pt-8 flex space-x-6">
-                            <a class="ml-20 text-xl font-sans text-gray-300 " href="#">Home</a>
-                            <a class="text-xl font-sans text-gray-300" href="#">About me</a>
-                            <a class="text-xl font-sans text-gray-300" href="#">Work</a>
-                            <a class="text-xl font-sans text-gray-300" href="#">Hobbies</a>
-                            <a class="text-xl font-sans text-gray-300" href="#">Contact</a>
+                            <a class="ml-44 text-xl font-sans text-gray-300" href="#AboutMe">About me</a>
+                            <a class="text-xl font-sans text-gray-300" href="#Work">Work</a>
+                            <a class="text-xl font-sans text-gray-300" href="#Hobbies">Hobbies</a>
+                            <a class="text-xl font-sans text-gray-300" href="#Contact">Contact</a>
                         </div>
                     </li>
                 </ul>
@@ -40,7 +39,7 @@
 
     <main>
         <div class="w-full h-auto bg-gray-700">
-            <div class="flex-1 max-w-4x1 pt-16  mx-auto p-10">
+            <div id="Home" class="flex-1 max-w-4x1 pt-16  mx-auto p-10">
                 <ul class="grid grid-cols-2 gap-8">
                     <li class=" rounded-lg ">
                         <img class="float-right select-none" 
@@ -58,7 +57,7 @@
             <div class="w-full h-64 bg-gray-700">
                 <div class="h-64">
                     <div class="h-auto w-32 pt-28 mx-auto">
-                        <img class="animate-bounce-slow mx-auto" width="30px" src="img/PointerGRAY.svg" alt="Pointer">
+                        <img class="animate-bounce-slow mx-auto z-10" width="30px" src="img/PointerGRAY.svg" alt="Pointer">
                     </div>
                 </div>
             </div>
@@ -72,10 +71,10 @@
 
         <div class="bg-silverPink h-325 w-full">
             <div class="flex-1 max-w-4x1 pt-16 mx-auto p-10 h-152">
-                <ul class="grid grid-cols-2 gap-8">
+                <ul id="AboutMe" class="grid grid-cols-2 gap-8">
                     <li class="rounded-lg h-144">
                         <h1 class="text-8xl Montserrat mt-40 ml-60 text-Independence">About me</h1>
-                        <h5 class="text-xl Montserrat font-light mt-5 ml-60 text-Independence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia In id nisi augue. In id nisi augue. Maecenas volutpat purus vitae odio consectetur, ac pretium odio faucibus. In id nisi augue. Maecenas volutpat purus vitae odio consectetur, ac pretium odio faucibus.  Maecenas volutpat purus vitae odio consectetur, ac pretium odio faucibus.  condimentum nulla fermentum mattis.justo nec sodales aliquam, quam velit convallis dolor, et pharetra justo nulla et nulla. In id nisi augue. Maecenas volutpat purus vitae odio consectetur, ac pretium odio faucibus. </h5>
+                        <h5 class="text-xl Montserrat font-light mt-5 ml-60 text-Independence">Hey my name is Yigit Findik, I'm a junior software developer from the Netherlands. Studying at ROC Nijmegen, Technovium to become a software developer. </h5>
                     </li>
                     <li class=" rounded-lg h-144">
                         <img class="select-none mt-32" 
@@ -91,9 +90,9 @@
                 320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
 
-        <div class="w-full h-300 bg-HeliotropeGray">
-            <div class="flex-1 max-w-4x1 pt-16 mx-auto p-10 h-190">
-                <ul class="grid grid-cols-1 grid-rows-2 gap-2">
+        <div class="w-full h-375 bg-HeliotropeGray">
+            <div class="flex-1 max-w-4x1 pt-16 mx-auto p-10 h-300">
+                <ul id="Work" class="grid grid-cols-1 grid-rows-2 gap-2">
                     <li class="rounded-lg h-120">
                         <img class="mx-auto py-5 select-none" 
                         src="img/Folder.svg"
@@ -102,28 +101,117 @@
                     </li>
                     <li class="rounded-lg ">
                         <div class="mx-auto w-128 h-auto mt-6">
-                            <h1 class="select-none Montserrat text-6xl text-center text-gray-300">Interested in my work?</h1>
+                            <h1 class="select-none Montserrat text-6xl text-center text-gray-300">Interested in my work or me?</h1>
                             <ul class="mt-5">
                                 <li>
-                                    <p class="text-center"><a class="inline-block Montserrat text-gray-300 text-xl font-normal no-underline hover:underline" href="https://github.com/Yigit-Findik"> <img class="inline-block mx-2 mb-0.5" width="24px" src="img/github-icon.svg" alt="github">Git-hub</a></p>
+                                    <p class="text-center"><a class="inline-block Montserrat text-gray-300 text-xl font-normal no-underline hover:underline focus:outline-none" target="_blank" href="https://github.com/Yigit-Findik"> <img class="inline-block select-none mx-1 mb-0.5" width="24px" src="img/github-icon.svg" alt="github">Git Hub</a></p>
                                 </li>
                             </ul>
                             <ul>
-                                <li class="">
-                                    <a class="ml-24 inline-block Montserrat text-gray-300 text-xl font-normal no-underline hover:underline" href="https://github.com/Yigit-Findik"> <img class="inline-block mx-2 mb-0.5" width="24px" src="img/instagram.svg" alt="instagram">Instagram</a>
-                                </li>
+                                <li class="text-center">
+                                    <a class=" inline-block Montserrat text-gray-300 text-xl font-normal no-underline hover:underline focus:outline-none" target="_blank" href="https://www.instagram.com/yigit.nbo/"> <img class="inline-block select-none mx-1 mb-0.5" width="24px" src="img/instagram.svg" alt="instagram">Instagram</a>
+                                    <a class=" inline-block Montserrat text-gray-300 text-xl font-normal no-underline hover:underline focus:outline-none" target="_blank" href="https://twitter.com/yt_024"> <img class="inline-block select-none mx-1 mb-0.5" width="24px" src="img/twitter.svg" alt="Twitter">Twitter</a>
 
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="text-center">
+                                    <a class=" inline-block Montserrat text-gray-300 text-xl font-normal no-underline hover:underline focus:outline-none" target="_blank" href="https://www.linkedin.com/in/yigit-findik-128b661b5/"> <img class="inline-block select-none mx-1 mb-0.5" width="24px" src="img/Linkedin.svg" alt="Linked-In">Linked In</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </div>
+
+            <svg  class="-mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#4A4E69" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,165.3C384,160,480,128,576,138.7C672,149,768,203,864,186.7C960,171,1056,85,1152,69.3C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+              </svg>
+        </div>
+
+        <div class="w-full h-325 bg-Independence">
+            <div class="flex-1 max-w-4x1 h-190 pt-32  mx-auto mt-32 p-10">
+                <ul id="Hobbies" class="grid grid-cols-2 gap-8">
+                    <li class=" rounded-lg h-152">
+                        <img class="float-right my-36 select-none" 
+                        src="img/PorgrammingHobby.svg"
+                        width="600px" 
+                        alt="Collegas">
+                    </li>
+                    <li class=" rounded-lg h-152">
+                        <h1 class="select-none Montserrat text-8xl mt-24 text-gray-300">What am i interested in?</h1>
+                        <div class="w-190">
+                            <h5 class="select-none Montserrat text-xl mt-6 font-light text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                 galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                 remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                                 publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--here comes svg wave-->
+            <svg class="pt-28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#C9ADA7" fill-opacity="1" 
+            d="M0,64L40,90.7C80,117,160,171,240,197.3C320,224,400,224,480,197.3C560,171,640,117,720,122.7C800,128,880,192,960,186.7C1040,181,1120,107,1200,112C1280,117,1360,
+            203,1400,245.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,
+            320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        </div>
+
+        <div class="w-full h-350 bg-silverPink">
+            <div class="flex-1 max-w-4x1 pt-16 mx-auto p-10 h-152">
+                <ul id="Contact" class="grid grid-cols-2 gap-8">
+                    <li class="rounded-lg h-144">
+                        <h1 class="text-8xl Montserrat mt-40 ml-60 text-Independence">Lets connect!</h1>
+                        <div class="h-96 w-96 ml-58">
+                            <form class="w-96 h-96 space-y-6 space-x-3 mt-10">
+                                <input
+                                  class="flex-1 ml-3 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
+                                  type="name"
+                                  placeholder="Name"
+                                />
+                                <input
+                                  class="flex-1 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
+                                  type="email"
+                                  placeholder="Email"
+                                />
+                                <input
+                                  class="flex-1 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
+                                  type="textarea"
+                                  placeholder="Message"
+                                />
+                                <input
+                                  class="flex-1 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
+                                  type="submit"
+                                  value="Send"
+                                />
+                            </form>
+                        </div>
+                    </li>
+                    <li class=" rounded-lg h-144">
+                        <img class="select-none mt-32" 
+                        src="img/Contact.svg"
+                        width="600px" 
+                        alt="Contact">
+                    </li>
+                </ul>
+            </div>
+            <svg class="py-96" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#9A8C98" fill-opacity="1" 
+            d="M0,128L60,149.3C120,171,240,213,360,218.7C480,224,600,192,720,192C840,192,960,224,1080,208C1200,192,1320,128,1380,96L1440,64L1440,320L1380,320C1320,320,1200,320,1080,
+            320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
         </div>
     </main>
 
     <footer>
-        <div class="w-full h-112 bg-blue-200">
-
+        <div class="w-full h-136 bg-HeliotropeGray">
+            <div class="flex-1 max-w-4x1 pt-16 mx-auto p-5">
+                <ul class="grid grid-cols-1 grid-rows-2 gap-2">
+                    <li class="bg-white rounded-lg h-64">
+                        
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

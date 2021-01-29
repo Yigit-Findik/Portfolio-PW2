@@ -21,7 +21,8 @@ module.exports = {
         256: '62rem',
         300: '73rem',
         325: '79rem',
-        350: '85rem'
+        350: '85rem',
+        375: '91rem'
       },
 
       //custom width added for smoother development
@@ -37,7 +38,8 @@ module.exports = {
         256: '62rem',
         300: '73rem',
         325: '79rem',
-        350: '85rem'
+        350: '85rem',
+        375: '91rem'
       },
       
       //custom color palette added
@@ -56,6 +58,7 @@ module.exports = {
 
 
        spacing: {
+        58: '14.5rem',
         88: '22rem',
         333: '33.33%',
        },
