@@ -16,13 +16,31 @@ module.exports = {
         136: '34rem',
         144: '36rem',
         152: '38rem',
+        190: '47.5rem',
         240: '60rem',
         256: '62rem',
         300: '73rem',
         325: '79rem',
         350: '85rem'
       },
-  
+
+      //custom width added for smoother development
+      width: {
+        112: '28rem',
+        120: '30rem',
+        128: '32rem',
+        136: '34rem',
+        144: '36rem',
+        152: '38rem',
+        190: '47.5rem',
+        240: '60rem',
+        256: '62rem',
+        300: '73rem',
+        325: '79rem',
+        350: '85rem'
+      },
+      
+      //custom color palette added
       colors: {
         silverPink: '#C9ADA7',
         HeliotropeGray: '#9A8C98',
@@ -30,13 +48,16 @@ module.exports = {
         Independence: '#4A4E69'
       },
 
+      //changed animation settings
       animation: {
         'spin-slow': 'spin 3s linear infinite',
         'bounce-slow': 'bounce 2s linear infinite'
        },
 
+
        spacing: {
-        88: '22rem'
+        88: '22rem',
+        333: '33.33%',
        },
     },
     
